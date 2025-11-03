@@ -1,0 +1,96 @@
+/* StreamTimer.css */
+
+body {
+    background: #000000;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    /* background-color: #282c34; */
+    /* Dark background for a stream look */
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    max-width: 264px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #61dafb;
+    font-size: 52px;
+    /* React blue */
+}
+
+.time-display {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border: 3px solid #61dafb;
+    border-radius: 8px;
+    min-width: 250px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.time-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 120px;
+    text-align: center;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 3px solid #61dafb;
+    border-radius: 6px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s, opacity 0.2s;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn:hover:not(:disabled) {
+    background-color: #61dafb;
+    color: #000;
+}
+
+.set-btn {}
+
+.set-btn:hover:not(:disabled) {}
+
+.start-btn {}
+
+.start-btn:hover:not(:disabled) {}
+
+.pause-btn {}
+
+.pause-btn:hover:not(:disabled) {}
+
+.stop-btn {}
+
+.stop-btn:hover:not(:disabled) {}

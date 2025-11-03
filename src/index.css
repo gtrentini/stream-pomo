@@ -1,0 +1,50 @@
+/* --------------------------------- */
+/* Minimal Global CSS Reset (Place at the very top of your global CSS file) */
+/* --------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Essential for consistent sizing */
+  margin: 0;
+  /* Removes default margin on most elements */
+  padding: 0;
+  /* Removes default padding on most elements */
+  border: 0;
+  /* Removes default borders */
+  font-family: inherit;
+  /* Inherit font from the nearest ancestor */
+  font-size: 100%;
+  /* Resets font size to browser default */
+  line-height: 1.15;
+  /* Sets a sensible default line-height */
+}
+
+/* Ensures correct display for block elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Basic styling for links and buttons for better consistency */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  /* Important for consistent button appearance across browsers */
+  -webkit-appearance: none;
+  appearance: none;
+}
